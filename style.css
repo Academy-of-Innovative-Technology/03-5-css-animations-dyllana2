@@ -1,0 +1,16 @@
+@keyframes cloud {
+    from{
+        transform: translateX(0);
+    }
+    50%{
+        transform: scale(2) translate(300px0);
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}
+
+#icon-rotate{
+    animation: cloud;
+    animation-duration: 5s;
+}
